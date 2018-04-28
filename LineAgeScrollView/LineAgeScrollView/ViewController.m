@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"联动本订单scrollview";
+    self.title = @"联动scrollview";
     self.automaticallyAdjustsScrollViewInsets=NO;
     CNScollPositionView  *postionView = [[CNScollPositionView alloc]init];
     postionView.titlesArr = @[@"推荐",@"北京车展",@"金融",@"原创",@"车间号",@"视频",@"小视频",@"直播",@"新能源",@"AR车展",@"服务",@"图片",@"话题",];
