@@ -12,7 +12,10 @@
 @property(nonatomic)NSArray           *titlesArr;//标题数组
 @property(nonatomic,assign)CGFloat    titleViewWidth;//子控件的宽度
 @property(nonatomic)CNScollPositionTitleContentView *titleContentView;//顶部title的容器
-@property(nonatomic)UIScrollView      *contentScrollView;
+@property(nonatomic)UIScrollView      *contentScrollView;//传入自己需要联动的内容容器scrollview
+/**
+ *估计索引确定选中的标题
+ */
 -(void)resetTitileViewState:(NSInteger)index;
 @end
 
